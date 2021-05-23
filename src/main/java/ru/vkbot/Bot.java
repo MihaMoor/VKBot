@@ -20,9 +20,9 @@ public class Bot {
         TransportClient transportClient = new HttpTransportClient();
         VkApiClient vk = new VkApiClient(transportClient);
         Random random = new Random();
-        Keyboard keyboard = new Keyboard();
+//        Keyboard keyboard = new Keyboard();
         //Что бы кнопки после 1 нажатия исчезали необходимо написать так:
-//        Keyboard keyboard = new Keyboard().setOneTime(true);
+        Keyboard keyboard = new Keyboard().setOneTime(true);
 
 //        List<List<KeyboardButton>> allKey = new ArrayList<>();
 //        List<KeyboardButton> line1 = new ArrayList<>();
